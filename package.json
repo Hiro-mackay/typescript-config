@@ -1,0 +1,15 @@
+{
+  "name": "typescript-config",
+  "version": "1.0.0",
+  "description": "A Typescript configuration files containing linter, prettier and tsconfig.",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.4"
+  }
+}

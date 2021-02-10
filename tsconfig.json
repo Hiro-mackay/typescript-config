@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "target": "es5",
+      "module": "ESNext",
+      "allowJs": true,
+      "declaration": true,
+      "noEmit": true,
+      "strict": true,
+      "noFallthroughCasesInSwitch": true,
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "paths": {
+        "@Core": ["src/Core"],
+        "@Core/*": ["src/Core/*"],
+        "@Element": ["src/Element"],
+        "@Element/*": ["src/Element/*"],
+        "@ElementFactory": ["src/ElementFactory"],
+        "@ElementFactory/*": ["src/ElementFactory/*"],
+        "@Lem": ["src"],
+        "@Lem/*": ["src/*"],
+        "@Loader": ["src/Loader"],
+        "@Loader/*": ["src/Loader/*"],
+        "@Renderer": ["src/Renderer"],
+        "@Renderer/*": ["src/Renderer/*"],
+        "@Utils": ["src/Utils"],
+        "@Utils/*": ["src/Utils/*"],
+      }
+    }
+  }
