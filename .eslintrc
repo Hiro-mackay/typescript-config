@@ -25,11 +25,11 @@
 			"error",
 			"ignorePackages",
 			{
-				"js": "never",　"jsx": "never",　"ts": "never",　"tsx": "never"
+				"js": "never", "jsx": "never", "ts": "never", "tsx": "never"
       }
 		],
 	"import/no-useless-path-segments": ["error", {
-		"noUselessIndex": "true"
+		"noUselessIndex": true
 		}],
 		"import/prefer-default-export": "off"
 	},
@@ -41,7 +41,7 @@
 				}
 			},
 		"import/extensions": [
-			".js",　".jsx",　".ts",　".tsx"
+			".js", ".jsx", ".ts", ".tsx"
      ]
 	}
 }
